@@ -1,0 +1,47 @@
+<!-- this says "hey, this file is an html file" -->
+<!DOCTYPE html>
+
+<!-- setting doc language to english -->
+<html lang="en">
+
+<!-- container for metadata; info about the document goes here
+     usually includes title, character set, style, scripts, etc -->
+
+<head>
+
+  <!-- required meta tags always come first -->
+
+  <!-- defines the character encoding for this document. utf-8 is unicode -->
+  <meta charset="utf-8">
+
+  <!-- meta viewport gives the browser instruction on how to control the
+       page's dimensions and scaling. width=device-width tells browser to
+       match the page's width to that of the device it is displayed on.
+       initial-scale sets the initial zoom level. shrink-to-fit=no prevents
+       the page from scaling to fit the viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+    shrink-to-fit=no">
+
+  <!-- choose what version of internet explorer to support, ie-edge meaning to
+       support the highest mode available -->
+  <meta http-equiv="x-ua-compatible" content="ie-edge">
+
+  <!-- css for bootstrap -->
+  <!-- link tag defines link between this document and a resource. rel
+       specifies the relationship. href specifies the location. -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/boostrap.min.css">
+
+  <title>TastyTracker</title>
+
+</head>
+
+<body>
+  <p>Code to go here</p>
+
+  <!-- these scripts will load jquery, tether, and bootstrap js -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/tether/dist/js/tether.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
